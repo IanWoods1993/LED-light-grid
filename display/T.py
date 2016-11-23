@@ -1,4 +1,5 @@
-def T(pos):
+@staticmethod
+def T(strip, pos):
   strip.setPixelColor(64 * pos + 0, Color(0, 0, 255))
   strip.setPixelColor(64 * pos + 1, Color(0, 0, 255))
   strip.setPixelColor(64 * pos + 2, Color(0, 0, 255))

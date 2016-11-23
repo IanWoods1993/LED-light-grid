@@ -1,5 +1,6 @@
 for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
     with open ("../letters/" + str(char) + ".txt", 'r') as inFile, open("../display/" + str(char) + ".py", 'w') as outFile:
+        outFile.write("@staticmethod\n")
         outFile.write("def " + char + "(strip, pos):\n")
         lineNum = 0
         for line in inFile.readlines():

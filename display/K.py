@@ -1,4 +1,5 @@
-def K(pos):
+@staticmethod
+def K(strip, pos):
   strip.setPixelColor(64 * pos + 0, Color(0, 0, 255))
   strip.setPixelColor(64 * pos + 5, Color(0, 0, 255))
   strip.setPixelColor(64 * pos + 8, Color(0, 0, 255))
