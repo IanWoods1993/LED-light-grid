@@ -1,6 +1,6 @@
 for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-    with open (str(char) + ".txt", 'r') as inFile, open(str(char) + ".py", 'w') as outFile:
-        outFile.write("def " + char + "(pos):\n")
+    with open ("../letters/" + str(char) + ".txt", 'r') as inFile, open("../display/" + str(char) + ".py", 'w') as outFile:
+        outFile.write("def " + char + "(strip, pos):\n")
         lineNum = 0
         for line in inFile.readlines():
             for pos in range(0, len(line)):
