@@ -1,9 +1,3 @@
-class Letter(object):
-  def __init__(self, strip, pos):
-    self.strip = strip
-    self.pos = pos  
-
-  @staticmethod
   def A(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -30,7 +24,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 56, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+
   def B(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -58,7 +52,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 59, color)
     strip.setPixelColor(64 * pos + 60, color)
     strip.show()
-  @staticmethod
+  
   def C(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -79,7 +73,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def D(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -104,7 +98,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 59, color)
     strip.setPixelColor(64 * pos + 60, color)
     strip.show()
-  @staticmethod
+  
   def E(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -133,7 +127,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 61, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def F(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -156,7 +150,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 48, color)
     strip.setPixelColor(64 * pos + 56, color)
     strip.show()
-  @staticmethod
+  
   def G(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -182,7 +176,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def H(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 6, color)
@@ -206,7 +200,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 56, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def I(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -229,7 +223,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 61, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def J(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -249,7 +243,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 57, color)
     strip.setPixelColor(64 * pos + 58, color)
     strip.show()
-  @staticmethod
+  
   def K(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 5, color)
@@ -270,7 +264,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 56, color)
     strip.setPixelColor(64 * pos + 63, color)
     strip.show()
-  @staticmethod
+  
   def L(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 8, color)
@@ -287,7 +281,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 61, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def M(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -316,7 +310,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 59, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def N(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -345,7 +339,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 61, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def O(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -370,7 +364,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def P(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -393,7 +387,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 48, color)
     strip.setPixelColor(64 * pos + 56, color)
     strip.show()
-  @staticmethod
+  
   def Q(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -419,7 +413,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 61, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def R(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -447,7 +441,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 56, color)
     strip.setPixelColor(64 * pos + 62, color)
     strip.show()
-  @staticmethod
+  
   def S(strip, pos, color):
     strip.setPixelColor(64 * pos + 1, color)
     strip.setPixelColor(64 * pos + 2, color)
@@ -470,7 +464,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def T(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
@@ -487,7 +481,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 51, color)
     strip.setPixelColor(64 * pos + 59, color)
     strip.show()
-  @staticmethod
+  
   def U(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 6, color)
@@ -509,7 +503,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def V(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 6, color)
@@ -527,7 +521,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 52, color)
     strip.setPixelColor(64 * pos + 59, color)
     strip.show()
-  @staticmethod
+  
   def W(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 3, color)
@@ -556,7 +550,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 60, color)
     strip.setPixelColor(64 * pos + 61, color)
     strip.show()
-  @staticmethod
+  
   def X(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 6, color)
@@ -574,7 +568,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 48, color)
     strip.setPixelColor(64 * pos + 54, color)
     strip.show()
-  @staticmethod
+  
   def Y(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 6, color)
@@ -590,7 +584,7 @@ class Letter(object):
     strip.setPixelColor(64 * pos + 51, color)
     strip.setPixelColor(64 * pos + 59, color)
     strip.show()
-  @staticmethod
+  
   def Z(strip, pos, color):
     strip.setPixelColor(64 * pos + 0, color)
     strip.setPixelColor(64 * pos + 1, color)
