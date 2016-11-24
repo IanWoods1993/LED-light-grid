@@ -678,12 +678,24 @@ def Z(strip, pos, color):
   strip.setPixelColor(64 * pos + 62, color)
   strip.show()
 
+# Define functions which animate LEDs in various ways.
+def colorWipe(strip, color, wait_ms=50):
+  for i in range(strip.numPixels()):
+    strip.setPixelColor(i, color)
+  strip.show()
+
 
 def main():
     # Create NeoPixel object with appropriate configuration.
   strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
     # Intialize the library (must be called once before other functions).
   strip.begin()
-  display(strip, "hi")
+  string = ""
+  while True:
+    string = raw_input("Enter the string: ")
+    print(string)
+    colorWipe(strip, Color(0, 0, 0))
+    display(strip, string)
+
 
 main()
