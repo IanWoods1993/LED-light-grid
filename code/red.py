@@ -31,4 +31,6 @@ if __name__ == '__main__':
 	# Intialize the library (must be called once before other functions).
 	strip.begin()
 
-	colorWipe(strip, Color(0, 0, 0))  # Red wipe
+	strip.setPixelColor(1, Color(255, 0, 0))
+        strip.show()
+	#colorWipe(strip, Color(0, 0, 255))  # Red wipe
