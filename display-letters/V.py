@@ -1,0 +1,18 @@
+@staticmethod
+def V(strip, pos):
+  strip.setPixelColor(64 * pos + 0, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 6, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 9, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 15, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 16, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 22, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 25, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 31, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 32, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 38, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 42, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 46, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 50, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 52, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 60, Color(0, 0, 255))
+  strip.show()

@@ -1,0 +1,16 @@
+@staticmethod
+def Y(strip, pos):
+  strip.setPixelColor(64 * pos + 0, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 6, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 9, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 15, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 17, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 21, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 27, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 28, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 29, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 35, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 44, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 51, Color(0, 0, 255))
+  strip.setPixelColor(64 * pos + 60, Color(0, 0, 255))
+  strip.show()
