@@ -1,6 +1,6 @@
 def main():
     for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        with open("../letters/" + str(char) + ".txt", 'r') as inFile, open("display/letterGridValues/" + str(char) + ".py",
+        with open("letters/" + str(char) + ".txt", 'r') as inFile, open("code/display/letterGridValues/" + str(char) + ".py",
                                                                            'w') as outFile:
             outFile.write("def " + char + "(strip, pos):\n")
             outFile.write("  arr = []\n")
