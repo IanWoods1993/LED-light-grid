@@ -25,6 +25,7 @@ def A(pos):
   arr.append(64 * pos + 57)
   arr.append(64 * pos + 63)
   return arr
+
 def B(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -53,6 +54,7 @@ def B(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def C(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -74,6 +76,7 @@ def C(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def D(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -99,6 +102,7 @@ def D(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def E(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -128,6 +132,7 @@ def E(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def F(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -151,6 +156,7 @@ def F(pos):
   arr.append(64 * pos + 48)
   arr.append(64 * pos + 63)
   return arr
+
 def G(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -177,6 +183,7 @@ def G(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def H(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -201,6 +208,7 @@ def H(pos):
   arr.append(64 * pos + 57)
   arr.append(64 * pos + 63)
   return arr
+
 def I(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -224,6 +232,7 @@ def I(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def J(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -244,6 +253,7 @@ def J(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def K(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -265,6 +275,7 @@ def K(pos):
   arr.append(64 * pos + 56)
   arr.append(64 * pos + 63)
   return arr
+
 def L(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -282,6 +293,7 @@ def L(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
 def M(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -311,6 +323,7 @@ def M(pos):
   arr.append(64 * pos + 60)
   arr.append(64 * pos + 63)
   return arr
+
 def N(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -340,6 +353,7 @@ def N(pos):
   arr.append(64 * pos + 58)
   arr.append(64 * pos + 63)
   return arr
+
 def O(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -365,6 +379,7 @@ def O(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def P(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -388,6 +403,7 @@ def P(pos):
   arr.append(64 * pos + 48)
   arr.append(64 * pos + 63)
   return arr
+
 def Q(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -414,6 +430,7 @@ def Q(pos):
   arr.append(64 * pos + 58)
   arr.append(64 * pos + 59)
   return arr
+
 def R(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -442,6 +459,7 @@ def R(pos):
   arr.append(64 * pos + 57)
   arr.append(64 * pos + 63)
   return arr
+
 def S(pos):
   arr = []
   arr.append(64 * pos + 1)
@@ -465,6 +483,7 @@ def S(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def T(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -482,6 +501,7 @@ def T(pos):
   arr.append(64 * pos + 51)
   arr.append(64 * pos + 60)
   return arr
+
 def U(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -504,6 +524,7 @@ def U(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def V(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -522,6 +543,7 @@ def V(pos):
   arr.append(64 * pos + 52)
   arr.append(64 * pos + 60)
   return arr
+
 def W(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -551,6 +573,7 @@ def W(pos):
   arr.append(64 * pos + 61)
   arr.append(64 * pos + 62)
   return arr
+
 def X(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -569,6 +592,7 @@ def X(pos):
   arr.append(64 * pos + 48)
   arr.append(64 * pos + 54)
   return arr
+
 def Y(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -585,6 +609,7 @@ def Y(pos):
   arr.append(64 * pos + 51)
   arr.append(64 * pos + 60)
   return arr
+
 def Z(pos):
   arr = []
   arr.append(64 * pos + 0)
@@ -608,3 +633,5 @@ def Z(pos):
   arr.append(64 * pos + 62)
   arr.append(64 * pos + 63)
   return arr
+
+ 
