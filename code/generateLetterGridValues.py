@@ -1,8 +1,7 @@
 def main():
     for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        with open("../letters/" + str(char) + ".txt", 'r') as inFile, open("../display/letterGridValues/" + str(char) + ".py",
+        with open("../letters/" + str(char) + ".txt", 'r') as inFile, open("display/letterGridValues/" + str(char) + ".py",
                                                                            'w') as outFile:
-            outFile.write("@staticmethod\n")
             outFile.write("def " + char + "(strip, pos):\n")
             outFile.write("  arr = []\n")
             lineNum = 0
@@ -24,7 +23,7 @@ def main():
 
 
 def writeLine(line, lineNum, positionInLine, positionInStrip, outFile):
-        outFile.write("  arr[" + str(positionInStrip) + "] = (64 * pos + " + str(lineNum * 8 + positionInLine) + ")\n")
+        outFile.write("  arr.append(64 * pos + " + str(lineNum * 8 + positionInLine) + ")\n")
 
 
 main()
