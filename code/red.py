@@ -9,7 +9,7 @@ from neopixel import *
 
 
 # LED strip configuration:
-LED_COUNT      = 150     # Number of LED pixels.
+LED_COUNT      = 150      # Number of LED pixels.
 LED_PIN        = 18      # GPIO pin connected to the pixels (must support PWM!).
 LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
@@ -31,6 +31,4 @@ if __name__ == '__main__':
 	# Intialize the library (must be called once before other functions).
 	strip.begin()
 
-	strip.setPixelColor(1, Color(255, 0, 0))
-        strip.show()
-	#colorWipe(strip, Color(0, 0, 255))  # Red wipe
+        colorWipe(strip, Color(0, 255, 0))  # Red wipe
