@@ -25,3 +25,4 @@ def printList(listComprehension):
                 print(i)
 
 main()
+# This file is dumb and i should just use the PIL Image.thumbnail method
