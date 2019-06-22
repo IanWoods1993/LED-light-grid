@@ -10,11 +10,6 @@ Helpful documentation:
 http://pi4j.com/pins/model-3b-rev1.html
 
 Notes for next year / whenever I run this again / whoever uses this thing
-<<<<<<< HEAD
+This used to be a python project but is now a processing project. Processing is better for this because it's easy to use with these light controllers called FadeCandy.
 
-You have to use sudo to run most of the python files that touch the light library.
-
-The getvalues.py script is used for feeding in an image and displaying it on the light strip. This is a crappy name, and I should change it.
-=======
-This used to be a python project but is now a processing project. Processing is better for this
->>>>>>> c9a38f8218cdda7557a6818c310d067e66b2922f
+FadyCandy controllers can be hooked together via a network and that makes it easy to have lots of lights running together.
