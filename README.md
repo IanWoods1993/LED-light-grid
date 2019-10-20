@@ -10,9 +10,10 @@ Helpful documentation:
 http://pi4j.com/pins/model-3b-rev1.html
 
 Notes for next year / whenever I run this again / whoever uses this thing
+
 This used to be a python project but is now a processing project. Processing is better for this because it's easy to use with these light controllers called FadeCandy.
 
-FadyCandy controllers can be hooked together via a network and that makes it easy to have lots of lights running together.
+FadeCandy controllers can be hooked together via a network and that makes it easy to have lots of lights running together.
 
 Start the fcserver.exe executable to start the fadecandy server. Better instructions can be found here https://github.com/scanlime/fadecandy
 
