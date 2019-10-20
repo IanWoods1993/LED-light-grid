@@ -20,7 +20,7 @@ public class Interpolation {
       x2 = x1;
       y2 = y1;
       x1 = tmpX;
-      y2 = tmpY;
+      y1 = tmpY;
     }
     double rise = y2 - y1;
     double run = x2 - x1;
