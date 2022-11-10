@@ -18,3 +18,5 @@ FadeCandy controllers can be hooked together via a network and that makes it eas
 Start the fcserver.exe executable to start the fadecandy server. Better instructions can be found here https://github.com/scanlime/fadecandy
 
 Without that stuff this would be way harder.
+
+Maybe learn.adafruit.com/neopixels-on-raspberry-pi is better, because fadecandy is all gone? 
